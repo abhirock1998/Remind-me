@@ -1,0 +1,75 @@
+import 'package:flutter/material.dart';
+
+class AppColor {
+  static Color bgColor = const Color.fromRGBO(23, 33, 43, 1);
+  static Color inputFieldBg = const Color.fromRGBO(36, 47, 61, 1);
+  static Color inputActiveBorder = const Color.fromRGBO(13, 202, 240, 1);
+  static Color erroBorder = const Color.fromRGBO(220, 53, 69, 1);
+  static Color white = Colors.white;
+  static Color btnBg = const Color.fromRGBO(52, 66, 80, 1);
+  static Color inputHintColor = const Color.fromRGBO(144, 163, 176, 1);
+  static Color greenColor = const Color.fromRGBO(0, 233, 177, 1);
+  static Color issueDueTextColor = const Color.fromRGBO(233, 236, 239, 1);
+  static Color blueColor = const Color.fromRGBO(48, 163, 230, 1);
+}
+// 0, 233, 177
+
+
+// --bs-blue: #30a3e6;
+// --bs-indigo: #6610f2;
+// --bs-purple: #6f42c1;
+// --bs-pink: #d63384;
+// --bs-red: #dc3545;
+// --bs-orange: #FF7E62;
+// --bs-yellow: #ffc107;
+// --bs-green: #00E9B1;
+// --bs-teal: #20c997;
+// --bs-cyan: #0dcaf0;
+// --bs-black: #000;
+// --bs-white: #fff;
+// --bs-gray: #6c757d;
+// --bs-gray-dark: #343a40;
+// --bs-gray-100: #f8f9fa;
+// --bs-gray-200: #e9ecef;
+// --bs-gray-300: #dee2e6;
+// --bs-gray-400: #ced4da;
+// --bs-gray-500: #adb5bd;
+// --bs-gray-600: #6c757d;
+// --bs-gray-700: #495057;
+// --bs-gray-800: #343a40;
+// --bs-gray-900: #212529;
+// --bs-primary: #30a3e6;
+// --bs-success: #00E9B1;
+// --bs-light: #344250;
+// --bs-dark: #17212b;
+// --bs-primary-rgb: 48, 163, 230;
+// --bs-success-rgb: 0, 233, 177;
+// --bs-light-rgb: 52, 66, 80;
+// --bs-dark-rgb: 23, 33, 43;
+// --bs-white-rgb: 255, 255, 255;
+// --bs-black-rgb: 0, 0, 0;
+// --bs-body-color-rgb: 255, 255, 255;
+// --bs-body-bg-rgb: 23, 33, 43;
+// --bs-font-sans-serif: "Poppins", sans-serif;
+// --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+// --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
+// --bs-body-font-family: var(--bs-font-sans-serif);
+// --bs-body-font-size: 0.8125rem;
+// --bs-body-font-weight: 400;
+// --bs-body-line-height: 1.5;
+// --bs-body-color: #fff;
+// --bs-body-bg: #17212b;
+// --bs-border-width: 1px;
+// --bs-border-style: solid;
+// --bs-border-color: rgba(255, 255, 255, 0.1);
+// --bs-border-color-translucent: rgba(0, 0, 0, 0.175);
+// --bs-border-radius: 0.625rem;
+// --bs-border-radius-sm: 0.375rem;
+// --bs-border-radius-lg: 0.75rem;
+// --bs-border-radius-xl: 1rem;
+// --bs-border-radius-2xl: 2rem;
+// --bs-border-radius-pill: 50rem;
+// --bs-link-color: #30a3e6;
+// --bs-link-hover-color: #2682b8;
+// --bs-code-color: #d63384;
+// --bs-highlight-bg: #fff3cd;
