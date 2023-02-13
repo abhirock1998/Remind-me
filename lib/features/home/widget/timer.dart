@@ -23,6 +23,7 @@ class _MyPomodoroState extends State<MyPomodoro> {
   TextEditingController controller = TextEditingController();
   bool isStarted = false;
   bool isSubmitted = false;
+  bool isPaused = false;
 
   AudioPlayer player = AudioPlayer();
 
@@ -149,10 +150,17 @@ class _MyPomodoroState extends State<MyPomodoro> {
                       ),
                       SizedBox(width: AppLayout.getWidth(context, 10)),
                       StartTimerButton(
-                        title: "Pause",
+                        title: isPaused ? "Resume" : "Pause",
                         color: AppColor.blueColor,
                         onStart: () {
-                          _controller.pause();
+                          if (isPaused) {
+                            _controller.resume();
+                          } else {
+                            _controller.pause();
+                          }
+                          setState(() {
+                            isPaused = !isPaused;
+                          });
                         },
                       ),
                     ],
